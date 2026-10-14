@@ -6147,7 +6147,7 @@ const aw = AF => { S.overslept = true; S.lateStart = true; S.lateBy = AF; S.cloc
 const bw = () => S.role === 'bestboy' ? 'key grip' : 'best boy';
 const cw = () => S.callAt - cd() - S.driveIn;
 const dw = [
-{ k: 'gloves', at: 'home', title: 'The Gloves', text: () => `<p>Boots on, keys in hand, and your gloves aren't in the back pocket of yesterday's pants. They aren't in the truck. They aren't on the dryer.</p><p>A grip without gloves is a guy with a splinter from the first apple box and a palm opened up on the first piece of speed rail. And is a grip without any gloves really a grip at all?</p>`,
+{ k: 'gloves', at: 'home', title: 'The Gloves', text: () => `<p>Boots on, keys in hand, and your gloves aren't in the back pocket of yesterday's pants. They aren't in the truck. They aren't on the dryer.</p><p>Is a grip without gloves even a grip at all?</p>`,
 choices: () => [
 { label: 'Tear the house apart', note: 'Ten minutes, maybe more', go: () => Math.random() < 0.7
 ? { fx: { min: 10, xp: 3 }, text: 'Kitchen table, under the call sheet, where you left them to dry. Ten minutes. You knew that.' }
